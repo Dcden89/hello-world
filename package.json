@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.37.1",
+    "pg": "^8.11.1",
+    "pg-hstore": "^2.3.4",
+    "bull": "^4.10.0",
+    "redis": "^4.6.7",
+    "googleapis": "^105.0.0",
+    "dotenv": "^16.1.4",
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
